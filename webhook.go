@@ -66,7 +66,7 @@ func lenLoadedHooks() int {
 	return sum
 }
 
-func main_as_run() {
+func mainAsRun() {
 	flag.Var(&hooksFiles, "hooks", "path to the json file containing defined hooks the webhook should serve, use multiple times to load from different files")
 	flag.Var(&responseHeaders, "header", "response header to return, specified in format name=value, use multiple times to set multiple headers")
 

@@ -21,7 +21,7 @@ func (w *webhook) Start(s service.Service) error {
 	return nil
 }
 func (w *webhook) run() {
-	main_as_run()
+	mainAsRun()
 }
 func (w *webhook) Stop(s service.Service) error {
 	// Stop should not block. Return with a few seconds.
